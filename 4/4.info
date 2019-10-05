@@ -1,0 +1,127 @@
+
+    System Info
+                Status:   Solver is finished.
+                Product:   Flow Simulation 2019 SP3.0. Build: 4547
+                Computer name:   BB316A-10
+                User name:   tsharon
+                Processors:   Intel(R) Xeon(R) CPU E3-1270 v5 @ 3.60GHz
+                Memory:   16319 MB / 134217727 MB
+                Operating system:   Windows 10 (or higher) (Version 10.0.17763)
+                CAD version:   SOLIDWORKS 2019 SP3.0
+                CPU speed:   3600 MHz
+
+    General Info
+                Model:   Triangle.SLDPRT
+                Project name:   Project(1)
+                Project path:   Z:\Fall 2019\Fluids\HW 3\4
+                Units system:   SI (m-kg-s)
+                Analysis type:   Internal
+                Exclude cavities without flow conditions :   On
+                Coordinate system:   Global coordinate system
+                Reference axis:   X
+
+    Physical Features
+                Heat conduction in solids:   Off
+                Time dependent:   Off
+                Gravitational effects:   Off
+                Flow type:   Laminar and turbulent
+                Cavitation:   Off
+                High Mach number flow:   Off
+                Free surface:   Off
+                Default roughness:   0 micrometer
+                Default wall conditions:   Adiabatic wall
+
+    Computational Domain
+
+        Size
+                X min:   -0.026 m
+                X max:   0.026 m
+                Y min:   -0.015 m
+                Y max:   0.030 m
+                Z min:   0 m
+                Z max:   0.498 m
+                X size:   0.052 m
+                Y size:   0.045 m
+                Z size:   0.498 m
+
+    Calculation Mesh
+
+        Basic Mesh Dimensions
+                Number of cells in X:   14
+                Number of cells in Y:   12
+                Number of cells in Z:   126
+
+        Number Of Cells
+                Cells:   42534
+                Fluid cells:   42534
+                Irregular cells:   0
+                Trimmed cells:   0
+                Maximum refinement level:   1
+
+    Goals
+
+        Global Goals
+
+            GG Average Velocity 1
+                Type:   Global Goal
+                Goal type:   Velocity
+                Calculate:   Average value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Maximum Velocity 1
+                Type:   Global Goal
+                Goal type:   Velocity
+                Calculate:   Maximum value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Normal Force (Z) 1
+                Type:   Global Goal
+                Goal type:   Normal Force (Z)
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Force (Z) 1
+                Type:   Global Goal
+                Goal type:   Force (Z)
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Friction Force (Z) 1
+                Type:   Global Goal
+                Goal type:   Friction Force (Z)
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Average Shear Stress (Z) 1
+                Type:   Global Goal
+                Goal type:   Shear Stress (Z)
+                Calculate:   Average value
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+    Goals
+                
+                Name                            	Unit   	Value        	Progress   	Criteria         	Delta            	Use in convergence 
+                GG Average Velocity 1           	m/s    	2.000        	100        	0.00022083332    	5.35588387e-06   	On                 
+                GG Maximum Velocity 1           	m/s    	2.396        	100        	0.0311742054     	0.00171209696    	On                 
+                GG Normal Force (Z) 1           	N      	-2.207e-16   	100        	4.22925357e-17   	3.92364362e-19   	On                 
+                GG Force (Z) 1                  	N      	-0.434       	100        	0.00290230457    	0.00277649888    	On                 
+                GG Friction Force (Z) 1         	N      	-0.434       	100        	0.00290230457    	0.00277649888    	On                 
+                GG Average Shear Stress (Z) 1   	Pa     	-8.60        	100        	0.0575206302     	0.0550272935     	On                 
+
+    General Info
+                Run at:   BB316A-10
+                Number of cores:   8
+                Iterations:   130
+                CPU time:   83 s
+
+        Log
+                Mesh generation started	0:   17:20:27 , Oct 04
+                Mesh generation normally finished	0:   17:20:30 , Oct 04
+                Preparing data for calculation	0:   17:20:30 , Oct 04
+                Calculation started	0:   17:20:34 , Oct 04
+                Calculation has converged since the following criteria are satisfied:	130:   17:21:54 , Oct 04
+                    Goals are converged	130:   
+                Calculation finished	130:   17:21:59 , Oct 04
